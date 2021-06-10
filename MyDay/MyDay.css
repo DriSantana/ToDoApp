@@ -1,0 +1,66 @@
+body{
+    background-image: radial-gradient(rgba(155, 30, 51, 0.123),white)
+}
+
+
+
+main{
+    display: flex;
+    background-color: rgba(140, 0, 255, 0.185);
+    height: 300px;
+    border-radius: 20px;
+}
+
+
+
+header h2{
+    text-align: center;
+}
+
+footer{
+    text-align: center;
+}
+
+.inputMyday{
+   display: block; margin: 0 auto;
+   padding-top: 15px;
+   
+}
+#inputTask{
+    width: 300px;
+    border: none;
+    border-radius: 10px;
+    height: 30px;
+   
+    
+
+}
+
+.addTask{
+    border: none;
+    border-radius: 10px;
+    height: 20px;
+    background-color: rgb(77, 77, 170);
+    color: aliceblue;
+    cursor: pointer;
+   box-shadow: 2px 2px 3px black;
+    
+    
+    
+}
+.addTask:hover {
+    background-color: #2c098b;
+    transform: scale(1.2) rotateX(30deg);
+  }
+
+
+.delete{
+      display:none;
+
+  }
+
+
+
+
+
+
